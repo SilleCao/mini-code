@@ -9,10 +9,11 @@ import java.util.*;
  * Date:2019/7/24 21:07
  * Description:
  */
-public class NinePalaceKeyBoard extends KeyBorad {
+public class NinePalaceKeyBoard extends KeyBoard {
 
     private static final Map<String, String> KEY_BOARD_MAP = new HashMap<>();
 
+    //define nine-palace key board
     static {
         KEY_BOARD_MAP.put("0", "");
         KEY_BOARD_MAP.put("1", "");
@@ -27,7 +28,6 @@ public class NinePalaceKeyBoard extends KeyBorad {
         KEY_BOARD_MAP.put("*", "");
         KEY_BOARD_MAP.put("#", "");
     }
-
 
     @Override
     public List<String> retResult(String[] input, boolean shift, boolean capslock) {

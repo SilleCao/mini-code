@@ -1,18 +1,19 @@
 package cn.sille.lettercombination;
 
-import org.springframework.util.Assert;
-
-import java.util.Map;
-
 /**
  * @author: Sille_Cao
  * Date:2019/7/24 20:46
  * Description:
  */
-public class KeyBoradFactory {
+public class KeyBoardFactory {
 
-    public static KeyBorad getKeBoard(KeyBoradType keyBoardType){
-        KeyBorad keyBorad = null;
+    /**
+     * Base on the key board type， return the key board
+     * @param keyBoardType
+     * @return
+     */
+    public static KeyBoard getKeBoard(KeyBoardType keyBoardType){
+        KeyBoard keyBorad = null;
         switch (keyBoardType){
             case NINE_PALACE_KEY_BOARD: keyBorad = new NinePalaceKeyBoard();break;
             default: keyBorad = new NinePalaceKeyBoard();break;

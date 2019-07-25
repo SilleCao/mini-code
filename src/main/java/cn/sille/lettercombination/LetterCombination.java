@@ -17,7 +17,7 @@ public class LetterCombination {
             System.out.print(s + " ");
         }
         System.out.println(" ");
-        List<String> retStrList = KeyBoradFactory.getKeBoard(KeyBoradType.NINE_PALACE_KEY_BOARD)
+        List<String> retStrList = KeyBoardFactory.getKeBoard(KeyBoardType.NINE_PALACE_KEY_BOARD)
                 .retResult(inputArr, shift, capslock);
         System.out.print("Output: ");
         for (String s : retStrList) {

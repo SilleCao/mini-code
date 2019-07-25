@@ -9,6 +9,6 @@ import java.util.Map;
  * Date:2019/7/24 20:46
  * Description:
  */
-public enum  KeyBoradType {
+public enum KeyBoardType {
     NINE_PALACE_KEY_BOARD
 }
